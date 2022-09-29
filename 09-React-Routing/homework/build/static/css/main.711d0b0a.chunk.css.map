@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack://src/containers/App.css",
+    "webpack://src/components/SearchBar.module.css",
+    "webpack://src/components/Nav.module.css",
+    "webpack://src/components/Cards.module.css",
+    "webpack://src/components/Card.module.css",
+    "webpack://src/components/Ciudad.module.css",
+    "webpack://src/components/Footer.module.css"
+  ],
+  "names": [],
+  "mappings": "AAAA,KACE,iBAAkB,CAClB,kBAA8B,CAC9B,0EAMC,CACD,YACF,CCXA,4BACE,eAAgB,CAChB,gBACF,CACA,wBACE,iBAAkB,CAClB,WAAY,CACZ,WAAY,CACZ,iBACF,CACA,sBACE,eAAgB,CAChB,WAAY,CACZ,iBAAkB,CAClB,WAAY,CACZ,qBACF,CACA,oCACE,sBACE,cACF,CACF,CCrBA,sBACE,gBAAiB,CACjB,kBAAmB,CACnB,iBACF,CACA,yBACE,cACF,CACA,gBACE,YAAa,CACb,qBAAsB,CACtB,WAAY,CACZ,YAAa,CACb,sBAAuB,CACvB,gBACF,CACA,sBACE,4BAAqB,CAArB,oBACF,CACA,qCACE,gBACE,aACF,CACA,mBACE,YACF,CACF,CC1BA,yBACE,YAAa,CACb,cAAe,CACf,4BAA6B,CAC7B,eAAgB,CAChB,YACF,CCNA,uBACE,YAAa,CACb,qBAAsB,CACtB,WAAY,CACZ,kBAAmB,CACnB,oCAAwC,CACxC,0DAA4E,CAC5E,6BACF,CACA,6BACE,4BAAqB,CAArB,oBACF,CACA,sBACE,YAAa,CACb,4BAA6B,CAC7B,eAAgB,CAChB,kBACF,CACA,0BACE,WAAY,CACZ,UACF,CACA,oBACE,mBAAoB,CACpB,cAAe,CACf,gBAAiB,CACjB,4BAAkC,CAClC,WACF,CC5BA,yBACE,YAAa,CACb,cAAe,CACf,4BAA6B,CAC7B,eAAgB,CAChB,YACF,CACA,wBACE,YAAa,CACb,qBAAsB,CACtB,aAAc,CACd,WAAY,CACZ,kBAAmB,CACnB,uCAA4C,CAC5C,0DAA4E,CAC5E,6BACF,CACA,8BACE,4BAAqB,CAArB,oBACF,CCnBA,yBACE,YAAa,CACb,4BAA6B,CAC7B,eAAgB,CAChB,mBAAoB,CACpB,gBACF,CACA,uBACE,UACF,CASA,6EACE,oBAAqB,CACrB,UACF,CACA,oBACE,WACF,CACA,sBACE,gBACF,CACA,wBACE,UACF",
+  "file": "main.711d0b0a.chunk.css",
+  "sourcesContent": [
+    ".App {\n  text-align: center;\n  background: rgb(124, 124, 164);\n  background: linear-gradient(\n    300deg,\n    rgba(124, 124, 164, 1) 0%,\n    rgba(154, 140, 152, 1) 33%,\n    rgba(201, 173, 167, 1) 66%,\n    rgba(242, 233, 228, 1) 100%\n  );\n  height: 100vh;\n}\n",
+    ".container {\r\n  margin-top: 30px;\r\n  font-size: 1.2rem;\r\n}\r\n.input {\r\n  text-align: center;\r\n  padding: 5px;\r\n  border: none;\r\n  border-radius: 5px;\r\n}\r\n.btn {\r\n  margin-left: 2px;\r\n  border: none;\r\n  border-radius: 5px;\r\n  padding: 5px;\r\n  background-color: #ff8800;\r\n}\r\n@media screen and (max-width: 500px) {\r\n  .btn {\r\n    margin-top: 5px;\r\n  }\r\n}\r\n",
+    ".container {\n  padding-top: 10px;\n  margin-right: 100px;\n  margin-left: 100px;\n}\n.container h3 {\n  text-align: end;\n}\n.log {\n  display: flex;\n  flex-direction: column;\n  width: 200px;\n  height: 200px;\n  transition-duration: 3s;\n  padding-top: 20px;\n}\n.log:hover {\n  transform: scale(1.1);\n}\n@media screen and (max-width: 1100px) {\n  .log {\n    padding-top: 0px;\n  }\n  .log h1 {\n    display: none;\n  }\n}\n",
+    ".contenedor {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-evenly;\n  margin-top: 50px;\n  height: 100px;\n}\n/* @media screen and (max-width: 700px) {\n  .container {\n    display: grid;\n  }\n} */\n",
+    ".container {\n  display: flex;\n  flex-direction: column;\n  width: 250px;\n  border-radius: 10px;\n  background-color: rgba(242, 233, 228, 0);\n  box-shadow: 10px 10px 23px rgb(38, 57, 77), -10px -10px 23px rgb(38, 57, 77);\n  transition: all 1s ease-in-out;\n}\n.container:hover {\n  transform: scale(1.4);\n}\n.infoCont {\n  display: flex;\n  justify-content: space-around;\n  margin-top: auto;\n  margin-bottom: auto;\n}\n.infoCont img {\n  height: 80px;\n  width: 80px;\n}\n.button {\n  align-self: flex-end;\n  margin-top: 2px;\n  margin-right: 2px;\n  background-color: rgba(0, 0, 0, 0);\n  border: none;\n}\n",
+    ".container {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: space-evenly;\r\n  margin-top: 50px;\r\n  height: 200px;\r\n}\r\n.infoCont {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 0 auto;\r\n  width: 400px;\r\n  border-radius: 10px;\r\n  background-color: rgba(242, 233, 228, 0.649);\r\n  box-shadow: 10px 10px 23px rgb(38, 57, 77), -10px -10px 23px rgb(38, 57, 77);\r\n  transition: all 1s ease-in-out;\r\n}\r\n.infoCont:hover {\r\n  transform: scale(1.3);\r\n}\r\n",
+    ".container {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  margin-top: 65px;\r\n  padding-bottom: 10px;\r\n  font-size: 1.8rem;\r\n}\r\n#log img {\r\n  width: 70px;\r\n}\r\n#log:link {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n#log:visited {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n#log:active {\r\n  text-decoration: none;\r\n  color: black;\r\n}\r\n.box2 {\r\n  width: 300px;\r\n}\r\n.box3 a {\r\n  margin-right: 5px;\r\n}\r\n.box3 img {\r\n  width: 30px;\r\n}\r\n"
+  ]
+}

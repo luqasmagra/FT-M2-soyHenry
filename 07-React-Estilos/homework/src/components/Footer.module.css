@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 65px;
+  margin-bottom: 10px;
+}
+#log img {
+  width: 70px;
+}
+#log:link {
+  text-decoration: none;
+  color: black;
+}
+#log:visited {
+  text-decoration: none;
+  color: black;
+}
+#log:active {
+  text-decoration: none;
+  color: black;
+}
+.box2 {
+  width: 300px;
+}
+.box3 a {
+  margin-right: 5px;
+}
+.box3 img {
+  width: 30px;
+}

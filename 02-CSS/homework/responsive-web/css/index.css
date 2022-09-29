@@ -1,0 +1,390 @@
+.img-border {
+  height: 100%;
+  border-radius: 20px;
+}
+.pad-line {
+  padding: 15px;
+  line-height: 1.4;
+}
+.registrate {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #22283A;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  padding: 10px;
+  color: #dee2e6;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  background: #f6f6f6c4;
+  color: #454A59;
+  border: #f1f1f1;
+}
+nav h2 {
+  align-self: center;
+  padding: 15px;
+  line-height: 1.4;
+}
+nav div {
+  display: flex;
+  align-self: center;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+nav div a {
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 5px;
+}
+nav div a:hover {
+  color: #dee2e6;
+  background-color: #22283A;
+  cursor: pointer;
+}
+footer {
+  color: #81848E;
+  background: #f6f6f6;
+  padding: 20px;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .intro .main-header {
+  height: 100%;
+  border-radius: 20px;
+  margin-top: 120px;
+  animation-name: animation;
+  animation-duration: 3s;
+}
+.home .intro h2 {
+  padding: 15px;
+}
+.home .intro p {
+  padding: 0 15px;
+}
+.home .music-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home .music-images img {
+  height: 100%;
+  border-radius: 20px;
+  width: 28%;
+  margin: 20px;
+  animation-name: animation0;
+  animation-duration: 3s;
+}
+.home .musica-nueva {
+  padding: 15px;
+}
+.home .musica-nueva h3 {
+  margin-top: 11px;
+}
+.home .musica-nueva p {
+  margin-top: 13px;
+}
+.home .actual {
+  margin-top: 60px;
+  border-top: 1px solid #dee2e6;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
+}
+.home .actual .actual-text {
+  width: 50%;
+}
+.home .actual .actual-text h3 {
+  margin-bottom: 10px;
+}
+.home .actual .actual-text p {
+  margin-bottom: 26px;
+}
+.home .actual .actual-text .btn {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #22283A;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  padding: 10px;
+  color: #dee2e6;
+}
+.home .actual .actual-text .btn:hover {
+  color: #81848E;
+  background: #f6f6f6;
+  cursor: pointer;
+}
+.home .actual .actual-img {
+  width: 46%;
+  margin-left: 4%;
+  animation-name: animation1;
+  animation-duration: 3s;
+}
+.home .actual .actual-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.home .form {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  border: 1px solid #dee2e6;
+  border-radius: 1em;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 400px;
+  animation-name: formanimation;
+  animation-duration: 3s;
+}
+.home .form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.home .form ul li {
+  margin-top: 1em;
+}
+.home .form ul li input {
+  padding: 5px;
+}
+.home .form ul li label {
+  display: inline-block;
+  width: 90px;
+}
+.home .form button {
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 500px) {
+  .home .intro .main-header {
+    width: 100%;
+  }
+  .home .music-images .tecnologia,
+  .ondas {
+    display: none;
+  }
+  .home .music-images .auricular {
+    width: 100%;
+  }
+  .home .actual {
+    flex-direction: column-reverse;
+    padding: 15px;
+  }
+  .home .actual .actual-img {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .home .actual .actual-text {
+    margin-top: 5px;
+    width: 100%;
+  }
+  .home .actual .actual-text .btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+@keyframes animation {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 120px;
+  }
+}
+@keyframes animation0 {
+  from {
+    margin: 0px;
+  }
+  to {
+    margin: 20px;
+  }
+}
+@keyframes animation1 {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 4%;
+  }
+}
+@keyframes formanimation {
+  from {
+    padding: 0em;
+  }
+  to {
+    padding: 1em;
+  }
+}

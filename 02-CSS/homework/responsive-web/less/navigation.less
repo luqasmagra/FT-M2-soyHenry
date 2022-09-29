@@ -1,0 +1,33 @@
+// Código de Nav acá
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    background: #f6f6f6c4;
+    color: @river-bend;
+    border: @sea-shell;
+    h2 {
+        align-self: center;
+        .pad-line();
+    }
+    div {
+        display: flex;
+        align-self: center;
+        margin-bottom: 5px;
+        font-size: 1.8rem;
+        line-height: 1.4;
+        a {
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            line-height: 1.4;
+            padding: 5px;
+        }
+        a:hover{
+            color: @border-real;
+            background-color: @btn-bg-color;
+            cursor: pointer;
+          }
+    }
+}

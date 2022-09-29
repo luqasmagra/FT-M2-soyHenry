@@ -1,0 +1,22 @@
+.container {
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+.input {
+  text-align: center;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.btn {
+  margin-left: 2px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ff8800;
+}
+@media screen and (max-width: 500px) {
+  .btn {
+    margin-top: 5px;
+  }
+}

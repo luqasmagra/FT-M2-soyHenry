@@ -1,0 +1,11 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #f4d06f;
+}
+/* @media screen and (max-width: 700px) {
+  .container {
+    display: grid;
+  }
+} */
